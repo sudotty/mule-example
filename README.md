@@ -15,7 +15,7 @@
 
 CXF组件同样允许你选择一种类型的操作
 
-       1. Proxy Service 允许你直接在flow中处理XML文件，这就意味着更少的转换，
+       1. Proxy Service 允许你直接在flow中处理XML文件，这就意味着更少的转换，更快的响应时间
        
 3. **处理组件** 处理请求，执行业务逻辑
 #####2. 发布一个JAX-WS service
