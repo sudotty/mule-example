@@ -15,10 +15,15 @@
 
 CXF组件同样允许你选择一种类型的操作
 
-       1. Proxy Service 允许你直接在flow中处理XML文件，这就意味着更少的转换，更快的响应时间。使用场景：
+       1. Proxy Service: 允许你直接在flow中处理XML文件，这就意味着更少的转换，更快的响应时间。使用场景：
            1. 直接编辑XML
            2. 使用XSLT
            3. 使用DataMapper来匹配fields
+       2. JAX-WS: 转换payload 为POJO。在你的flow中，POJO的属性更容易访问。使用场景：
+           1. 更习惯使用Java对象来工作
+           2. 需要构建一个JSON或者POJO的输出
+           3. 使用社区版，不能使用DataMapper
+           4. 想要通过Code first的方式来呈现WSDL（Proxy service只有在WSDL first的情况下才行）
 3. **处理组件** 处理请求，执行业务逻辑
 #####2. 发布一个JAX-WS service
 #####3. 代理一个已发布的service
