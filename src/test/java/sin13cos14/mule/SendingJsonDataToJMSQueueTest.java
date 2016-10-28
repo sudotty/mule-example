@@ -3,7 +3,6 @@ package sin13cos14.mule;
 import org.apache.commons.io.FileUtils;
 import org.junit.BeforeClass;
 import org.junit.Rule;
-import org.junit.Test;
 import org.mule.api.MuleMessage;
 import org.mule.module.client.MuleClient;
 import org.mule.tck.junit4.FunctionalTestCase;
@@ -39,7 +38,7 @@ public class SendingJsonDataToJMSQueueTest extends FunctionalTestCase {
             e.printStackTrace();
         }
     }
-    @Test
+//    @Test
     public void httpGetToFlowUrlSentMessage() throws Exception
     {
         MuleClient client = new MuleClient(muleContext);

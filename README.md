@@ -1,5 +1,15 @@
 ## Mule 社区版的一些实例
 
+
+#Todo
+
+## 0. Mule的配置
+## 1. Deploy to weblogic 嵌入到服务器内部使用
+## 2. 做一个代理模式，接受客户webservice代理之后发送一个供内部访问的CXF 生成一个Java API
+## 3. JMS 发送，接受
+
+
+
 ### 1. 官网的工具下载太慢了，所以放到了[百度盘](http://pan.baidu.com/s/1slTc4A5),请选择自己所需的版本下载
 
 ### 2. WebService
@@ -31,3 +41,6 @@ CXF组件同样允许你选择一种类型的操作
 ### 3. JMS
 
 ### 4. Maven
+
+
+
