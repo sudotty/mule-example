@@ -3,7 +3,7 @@
 
 #Todo
 
-## 0. Mule的配置
+## 0. Mule的配置 配置到weblogic中，并且可以读取外部配置文件
 ## 1. Deploy to weblogic 嵌入到服务器内部使用
 ## 2. 做一个代理模式，接受客户webservice代理之后发送一个供内部访问的CXF 生成一个Java API
 ## 3. JMS 发送，接受
